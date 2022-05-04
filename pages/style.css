@@ -1,0 +1,27 @@
+html, body {
+    width: 100%;
+    height: 100%;
+  }
+  h1{
+    font-family:'Courier New' ;
+    font-size: 72px;
+    color: #f99e48;
+    text-align: center;
+  }
+  h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #ea3e69;
+    text-align: center;
+  }
+  h4{
+    font-family:'Verdana' ;
+    font-size: 25px;
+    color: #312b2b;
+    text-align: center;
+  }
+  p{
+    font-family:'serif';
+    color: #5f5d5d;
+    text-align: center;
+  }

@@ -2,16 +2,47 @@
 <head>
     <meta charset="UTF-8 ">
     <title>My Web</title>
+    <style>
+        :root{
+            --yellow-color:#F7DF1E;
+            --dark-color:#222;
+        }
+        .card{
+            display: inline-block;
+            background-color: var(--yellow-color);
+            color: var(--dark-color)
+        }
+        .rotate{
+            transform: rotate(45deg);
+        }
+        .rotate-135{
+            transform:rotate(135deg );
+        }
+        .Sepia{
+            filter: sepia(2);
+        }
+    </style>
 </head>
 <body>
-    <h1>Homepage</h1>
+    <div>PruebaXD</div>
+    <section class="imgs">
+        <img id="1" src="./Images/Cats.jpg" width=100 alt="">
+        <img id="2" src="./Images/Cats.jpg" width=100 alt="">
+        <img id="3" src="./Images/Cats.jpg" alt="" width=100>
+        <img id="4" src="./Images/Cats.jpg" alt="" width=100>
+    </section>
+    <input type="text" name="nombre" placeholder="Nombre">
+    <h1 class="tit">Homepage</h1> 
+    <a class="link-DOM" href="index.html" style="background-color: aqua;color: blueviolet" data-id="1" data-description="DOCUMENT OBJECT MODEL">DOM</a>
     <a href="https://www.theodinproject.com/about">click me</a>
     <a href="pages/about.html">About</a>
     <a href="pages/DogsAndCats.html" target="_blank">CatsAndDogs</a>
     <p>
         This will <em><strong>make</strong></em>  you nasty
     </p>
-    <img src="Images/dogs.jpg" width="500" alt="This oios nopt">
+    <p id="change">Abrir</p>
+    <img id="dogo" src="Images/dogs.jpg" width="500" alt="This oios nopt">
+    <img class="card" src="Images/dogs.jpg" width="500" alt="This oios nopt">
     <ul>
 
         <li>This is one</li>
@@ -26,7 +57,7 @@
     <h1>THis is not</h1>
     <!--this is a simple co,mment-->
     <h2>Wtiitng</h2>
-
-    please help me ouyt
+    <script src="index.js"></script>
+    please help me out
 </body>
 </html>
